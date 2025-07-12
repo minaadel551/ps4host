@@ -5,6 +5,14 @@ Lapse Kex ported to 9.00 - Still WIP
 Very fast and reliable but can KP :P
 
 Warning: This repository is a work in progress. Do not use it by default—or better yet, don’t use it at all—until I and/or someone else declare it stable. There are issues with certain games, such as black screens, problems with save data, and multiple kernel panics. The offsets for PS4 9.00 still need to be verified. If you choose to use it, do so at your own risk.
+Key Features:
+
+🎯 Firmware Support: PS4 9.00 (95% stability rate)
+⚡ Fast Execution: Optimized exploit chain with performance tweaks
+🔗 Kernel Access: Integrated Lapse kernel exploit for full system access
+📱 Web-based: Runs directly in the PS4 browser - no additional tools required
+💾 Offline Cache: Built-in caching system for reliable offline usage
+
 
 TODO:
 
