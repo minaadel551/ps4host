@@ -8,9 +8,13 @@ Warning: This repository is a work in progress. Do not use it by default—or be
 Key Features:
 
 🎯 Firmware Support: PS4 9.00 (95% stability rate)
+
 ⚡ Fast Execution: Optimized exploit chain with performance tweaks
+
 🔗 Kernel Access: Integrated Lapse kernel exploit for full system access
+
 📱 Web-based: Runs directly in the PS4 browser - no additional tools required
+
 💾 Offline Cache: Built-in caching system for reliable offline usage
 
 
