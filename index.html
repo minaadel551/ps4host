@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>MINA ADEL - PS4 9.00 Host</title>
+    <style>
+        body {
+            background-color: #000000;
+            font-family: system-ui;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .background-text {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 15vw;
+            font-weight: bold;
+            color: rgba(139, 0, 0, 0.9);
+            z-index: -1;
+            user-select: none;
+            font-family: Arial, sans-serif;
+        }
+
+        /* --- بداية الكود الجديد للصورتين --- */
+        .corner-image {
+            position: fixed; /* تثبيت الصور في الشاشة */
+            width: 250px;    /* يمكنك تغيير حجم الصور من هنا */
+            opacity: 0.7;    /* درجة الشفافية */
+            z-index: 0;      /* طبقة ظهور الصور */
+        }
+         
+      .top-right {
+            top: 60px;
+            right: 20px;
+        }
+
+
+        .bottom-left {
+            bottom: 20px;
+            left: 20px;
+        }
+           
+        /* --- نهاية الكود الجديد للصورتين --- */
+
+        .main-container {
+            padding-top: 5vh;
+        }
+
+        @font-face {
+            font-family: 'logging';
+            src: url('fonts/LiberationMono-Regular.ttf');
+        }
+        
+        #console {
+            font-family: 'logging', monospace;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid #555;
+            border-radius: 10px;
+            width: 40vw;
+            height: 35vh;
+            max-width: 650px;
+            margin: 40px auto;
+            overflow-y: auto;
+            text-align: left;
+            padding: 25px;
+            font-size: 16px;
+            color: #ffffff;
+            box-shadow: 0px 0px 25px rgba(0, 51, 102, 0.8);
+        }
+
+        .footer-bar {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.75);
+			color: #cccccc;
+			padding: 10px 0;
+			font-size: 16px;
+			border-top: 1px solid #222222;
+			box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 8px;
+		}
+
+		.footer-bar a {
+			color: #ffffff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 20px;
+		}
+        
+    </style>
+    <script>
+        if (window.applicationCache.status == '0') {
+            window.location.replace("cache.html");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="background-text">MINA ADEL</div>
+
+    <img src="right.png" class="corner-image top-right">
+    <img src="left.png" class="corner-image bottom-left">
+    
+ 
+    <div class="main-container">
+        <h1><font style='color:#fff;font-size:40px;font-weight:bold;text-shadow:3px 2px #3d3939;'><i>PS4 Auto Jailbreak By MINA ADEL</i></font></h1>
+        <div><font style='color:#fff;font-size:22px;font-weight:bold;text-shadow:3px 2px #3d3939;'><i>PSFree - Lapse Exploit for Firmware 9.00</i></font></div>
+        <div><font style='color:#fff;font-size:22px;font-weight:bold;text-shadow:3px 2px #3d3939;'><i>GoldHen Fw v9.00</i></font></div>
+        <pre id='console'></pre>
+        <div id="message" style='color:#fff;font-size:28px;font-weight:bold;text-shadow:3px 2px #3d3939;'></div>
+    </div>
+
+    <div class="footer-bar">
+		<span>Developed by:</span>
+		<a href="https://github.com/minaadel551" target="_blank">Mina Adel</a>
+	</div>
+
+    <script src='./alert.mjs' type='module'></script>
+</body>
+</html>
