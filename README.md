@@ -5,7 +5,7 @@
 
 
 # PSFree version 1.5.0
-
+![Mina](https://img.shields.io/badge/Mina%20-Adel-red?style=plastic)
 ![Image](https://github.com/minaadel551/ps4host/blob/07e3f5c2d874503949213305af1512bad9d28823/Images/readme.png)
 
 Lapse Kex ported to 9.00 - Still WIP
