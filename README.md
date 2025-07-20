@@ -1,7 +1,6 @@
 ![GoldHEN Version](https://img.shields.io/badge/GoldHen-v2.4b18.3-yellow)
 ![PS4](https://img.shields.io/badge/PS4-9.00-blue)
-
-                     ![Mina](https://img.shields.io/badge/Mina%20-Adel-red?style=plastic)
+![Mina](https://img.shields.io/badge/Mina%20-Adel-red?style=plastic)
 
 
 
