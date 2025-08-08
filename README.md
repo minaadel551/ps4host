@@ -1,4 +1,4 @@
-![GoldHEN Version](https://img.shields.io/badge/GoldHen-v2.4b18.3-yellow)
+![GoldHEN Version](https://img.shields.io/badge/GoldHEN-v2.4b18.5-yellow)
 ![PS4](https://img.shields.io/badge/PS4-9.00-blue)
 
 
